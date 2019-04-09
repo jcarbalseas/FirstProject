@@ -10,4 +10,18 @@ public class Card {
 	public void display() {
 		System.out.println(value + "  " + suit);
 	}
+
+	/**
+	 * @return the suit
+	 */
+	public String getSuit() {
+		return suit;
+	}
+
+	/**
+	 * @return the value
+	 */
+	public int getValue() {
+		return value;
+	}
 }
