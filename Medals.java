@@ -6,10 +6,11 @@ public class Medals {
 
 		final int COUNTRIES = 7;
 		final int MEDALS = 3;
-
-		String[] countries = { "Australia", "Canada", "China", "Germany", "Korea", "Japan", "Russia", "United States" };
-
-		int[][] counts = { { 1, 0, 1 }, { 1, 1, 0 }, { 0, 0, 1 }, { 1, 0, 0 }, { 0, 1, 1 }, { 0, 1, 1 }, { 1, 1, 0 }, };
+		
+		//added India as a country
+		String[] countries = { "India", "Australia", "Canada", "China", "Germany", "Korea", "Japan", "Russia", "United States" };
+		//added medal count for India
+		int[][] counts = { { 10, 10, 10 }, { 1, 0, 1 }, { 1, 1, 0 }, { 0, 0, 1 }, { 1, 0, 0 }, { 0, 1, 1 }, { 0, 1, 1 }, { 1, 1, 0 }, };
 
 		System.out.println("        Country      Gold     Silver     Bronze     Total");
 
