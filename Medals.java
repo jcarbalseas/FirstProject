@@ -6,9 +6,9 @@ public class Medals {
 
 		final int COUNTRIES = 7;
 		final int MEDALS = 3;
-		
+
 		//added India as a country
-		String[] countries = { "India", "Turkey", "Spain", "Canada", "China", "Germany", "Korea", "Japan", "Russia", "United States" };
+		String[] countries = { "India", "Turkey", "Spain", "Canada", "China", "Germany", "South Korea", "Japan", "Russia", "United States" };
 		//added medal count for India
 		int[][] counts = { { 10, 10, 10 }, { 1, 0, 1 }, { 1, 1, 0 }, { 0, 0, 1 }, { 1, 0, 0 }, { 0, 1, 1 }, { 0, 1, 1 }, { 1, 1, 0 }, };
 
